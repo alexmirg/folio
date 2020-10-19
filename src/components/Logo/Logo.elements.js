@@ -6,7 +6,7 @@ export const Brand = styled(Link)`
     text-transform: uppercase;
     font-size: 4.8rem;
     margin-right: auto;
-    margin-bottom: ${({marginBottom}) => (marginBottom ? marginBottom : '0px')};
+    margin-bottom: -8px;
 
     &:hover, &:focus {
         text-decoration: none;

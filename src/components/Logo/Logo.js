@@ -3,7 +3,7 @@ import { Brand } from './Logo.elements'
 
 const Logo = () => {
     return (
-        <Brand to="/" marginBottom='-8px;'>.folio</Brand>  
+        <Brand to="/">.folio</Brand>  
     )
 }
 
