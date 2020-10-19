@@ -1,14 +1,18 @@
 import React from 'react'
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import GlobalStyle from './GlobalStyles'
 
-import { Header } from './components'
+import { Header, Navbar } from './components'
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <GlobalStyle />
       <Header />
+      <Navbar />
     </div>
+    </Router>
   );
 }
 
