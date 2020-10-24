@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import GlobalStyle from './theme/GlobalStyles'
 import { Reset as ResetStyle } from 'styled-reset'
 
-import { Header, Navbar, Portfolio, Footer } from './components'
+import { Header, Navbar, Portfolio, Footer, Sponsors } from './components'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Header />
       <Navbar />
       <Portfolio />
+      <Sponsors />
       <Footer />
     </div>
     </Router>
