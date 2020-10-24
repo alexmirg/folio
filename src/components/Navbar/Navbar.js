@@ -46,7 +46,7 @@ const Navbar = () => {
                                 </NavItem>
                             </NavList>
                         </Nav>
-                        <Socials />
+                        <Socials spacerLeft="62px"/>
                     </NavWrapper>
                 </NavContent>
             </Container>

@@ -1,12 +1,14 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 
+
+
 const iconSize = '35px';
 
 export const SocialsList = styled.ul`
     display: flex;
-    margin-left: 62px;
     list-style: none;
+    ${({spacerLeft}) => (spacerLeft ? `margin-left:${spacerLeft}` : '')}
 `
 export const SocialsItem = styled.li`
     margin: 0 7px;

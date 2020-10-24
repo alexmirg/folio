@@ -11,9 +11,9 @@ import flickrIcon from '../../images/socials/flickr-icon.png'
 import linkedinIcon from '../../images/socials/linkedin-icon.png'
 import twitterIcon from '../../images/socials/twitter-icon.png'
 
-const Socials = () => {
+const Socials = (props) => {
     return (
-        <SocialsList>
+        <SocialsList spacerLeft={props.spacerLeft}>
             <SocialsItem>
                 <SocialsLink to="/"><SocialsIcon icon={linkedinIcon} /></SocialsLink>
             </SocialsItem>

@@ -9,7 +9,8 @@ import {
   Portfolio, 
   Footer, 
   Sponsors,
-  Testimonial 
+  Testimonial,
+  Bio
 } from './components'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Portfolio />
       <Testimonial />
       <Sponsors />
+      <Bio />
       <Footer />
     </div>
     </Router>
