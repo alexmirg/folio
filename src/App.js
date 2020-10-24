@@ -10,7 +10,8 @@ import {
   Footer, 
   Sponsors,
   Testimonial,
-  Bio
+  Bio,
+  News
 } from './components'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Navbar />
       <Portfolio />
       <Testimonial />
+      <News />
       <Sponsors />
       <Bio />
       <Footer />
