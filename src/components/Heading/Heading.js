@@ -5,16 +5,21 @@ import {
     Subtitle
 } from './Heading.elements'
 
-const Heading = () => {
+const Heading = (props) => {
+    const title = props.data.title
+    ? <Title>{props.data.title}</Title> 
+    : '';
+
+    const subtitle = props.data.subtitle
+    ? <Subtitle>{props.data.subtitle}</Subtitle> 
+    : '';
+    
+    
     return (
         <>
             <HeadingBlock>
-                <Title>
-                    Portfolio
-                </Title>
-                <Subtitle>
-                    Glamour fashion personal street portrait
-                </Subtitle>
+                {title}
+                {subtitle}
             </HeadingBlock>   
         </>
     )

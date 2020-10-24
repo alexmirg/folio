@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from '../../GlobalStyles'
+import { Container } from '../../theme/GlobalStyles'
 import {
     PageHeader,
     HeaderContent,
